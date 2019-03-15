@@ -12,4 +12,4 @@ func! Import()
     endif
 endfunc!
 
-nmap <leader>i :call Import()<CR>_
+au filetype python nmap <leader>i :call Import()<CR>_
