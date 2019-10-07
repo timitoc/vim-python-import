@@ -19,3 +19,13 @@ Running `<leader>i` on that line will turn it into:
 ```py
 from math import pi, sqrt, log
 ```
+
+### Import with a different name
+Use `module:alias` syntax
+```py
+numpy:np
+```
+Running `<leader>i` on that line will turn it into:
+```py
+import numpy as np
+```
